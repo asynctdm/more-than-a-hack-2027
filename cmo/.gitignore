@@ -1,0 +1,5 @@
+# parsed tracking cache and local outputs: derived from gated data, never commit
+cache/
+submission/
+*.npz
+__pycache__/
