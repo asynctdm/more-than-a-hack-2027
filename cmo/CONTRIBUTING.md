@@ -12,6 +12,12 @@
 4. **Same input, same file.** No unseeded randomness. The Colab notebook checks this (step 9).
 5. **Never commit data**, the `cache/` folder, or CSVs.
 
+## Colab only? Use the team notebook
+
+`notebooks/team_colab.ipynb` covers everything below without a laptop: step 12 runs quick
+setting experiments, step 13 compares your version with `main`, and step 14 pushes to a new branch.
+To edit code without any token, press `.` on the GitHub repo page, edit, and commit to a new branch.
+
 ## How to try an idea
 
 **Quick experiment, no code changes:** override any constant in `PARAMS`
