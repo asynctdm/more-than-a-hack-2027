@@ -56,3 +56,6 @@ python evaluation/validate_submission.py evaluation/results/<team_name>.csv
 | `possession/camera.py` | camera centre on the pitch from the homography |
 | `possession/ballfree.py` | self-supervised ball-free possession model (team shape) |
 | `possession/model.py` | per-frame evidence and the 3-state Viterbi decoder |
+| `diagnose.py` | label-free comparison of submissions (use instead of the public score) |
+
+Want to improve it? Read [CONTRIBUTING.md](CONTRIBUTING.md) first.
